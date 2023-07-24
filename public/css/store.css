@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.c1 {
+    width: 1400px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.c1_top {
+    width: 98%;
+    height: auto;
+}
+
+.c1_top img {
+    width: 100%;
+}
+
+.c1_tiltle {
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    display: flex;
+}
+
+.c1_tiltle h1 {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+.c1_tiltle select {
+    margin: 0;
+    height: 25px;
+    outline: none;
+    min-width: 200px;
+    margin: 19px;
+    width: 160px;
+    border: 1px solid #ccc;
+    padding: 0px 15px;
+    color: rgb(92, 90, 90);
+}

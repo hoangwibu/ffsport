@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.mg-auto__support {
+    margin: 0 auto;
+    width: 1920px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.title__suppor h3 {
+    font-size: 1.4rem;
+    color: #c39b3c;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+
+
+.form__support .ipt {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+}
+
+.form__support .btn {
+    padding: 8px;
+    background-color: #c39b3c;
+    color: #fff;
+    cursor: pointer;
+}

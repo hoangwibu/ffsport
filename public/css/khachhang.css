@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+.b1 {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.b1_banner {
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+}
+
+.str {
+    line-height: 1.5;
+    position: absolute;
+    top: 250px;
+    margin: 0 auto;
+    margin-left: 250px;
+}
+
+.str strong {
+    font-weight: 800;
+    font-variant: unicase;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.str p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.b1_container {
+    width: 100%;
+    background-color: #0001;
+    height: 423px;
+    padding: 0 25px;
+}
+
+.b1_left {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.b1_left h1 {
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.b1_left p {
+    margin-top: 25px;
+}
+
+.b1_right {
+    width: 47%;
+    float: right;
+    height: 100%;
+}
+
+.b1_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.b1_user {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.user_title {
+    text-align: center;
+}
+
+.user_title h1 {
+    font-size: 26px;
+    padding-top: 15px;
+    font-variant: petite-caps;
+}
+
+.user_khachhang {
+    width: 100%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.user_products {
+    width: 50%;
+    box-shadow: 0 0 10px 5px #0001;
+    border-radius: 10px;
+}
+
+.user_products img {
+    width: 100%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.products_h2 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 414px) {
+    .str {
+        display: none;
+    }
+
+    .b1_container {
+        height: auto;
+    }
+
+    .b1_left {
+        width: 100%;
+    }
+
+    .b1_right {
+        width: 100%;
+    }
+
+    .user_products {
+        width: 50%;
+        height: auto;
+        margin: 20px 0;
+    }
+}

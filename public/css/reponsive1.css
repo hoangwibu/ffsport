@@ -1,0 +1,206 @@
+@media screen and (max-width: 414px) {
+    .header {
+        position: relative;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main_menu {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .main_menu li {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .main_menu li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #toggle {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        right: 5px;
+        top: 45px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .search {
+        width: 70%;
+        padding: 8px;
+        background-color: #fff;
+    }
+
+    .search .search__ipt {
+        outline: none;
+        width: 85%;
+    }
+
+    .search .btn-search {
+        width: 10%;
+    }
+
+    .cart {
+        right: 18px;
+    }
+
+    .user {
+        right: 50px;
+    }
+    .user .account b{
+        display: none;
+    }
+    .box__product {
+        flex-wrap: wrap;
+
+    }
+
+    .product {
+        width: 100% !important;
+        padding: 25px !important;
+        box-sizing: border-box;
+    }
+
+    .product_txt h1 {
+        font-size: 18px;
+    }
+
+
+    .category__title .title {
+        font-size: 18px;
+    }
+
+    .box__category {
+        width: 100%;
+        display: block;
+    }
+
+    .box__category .box {
+        width: 50%;
+        padding-top: 10px;
+    }
+
+    .box__category .box .txt {
+        font-size: 14px;
+    }
+
+    .box__category .box .sp-txt {
+        font-size: 10px;
+    }
+
+    .all__info {
+        width: 100%;
+    }
+
+    .suppor__web {
+        margin-left: 18px;
+        width: 55%;
+    }
+
+    .instagram,
+    .facebook {
+        width: 35%;
+    }
+
+    .info__shop h3,
+    .suppor__web h3,
+    .info {
+        font-size: 14px;
+    }
+
+    .info__detail,
+    .suppor__web .txt {
+        font-size: 12px;
+    }
+
+
+    .footer__top p,
+    .footer__bot p {
+        font-size: 12px !important;
+    }
+    .category {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title__category h3 {
+        font-size: 12px;
+    }
+
+    .main__category li a {
+        font-size: 10px;
+    }
+
+    .product {
+        float: right;
+        padding: 20px 5px 0 5px;
+        width: 100%;
+    }
+
+    .title__product h1 {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .card h3 {
+        font-size: 12px;
+    }
+
+    .card .price {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .main_menu {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .main_menu li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main_menu li a {
+        font-size: 0.5.5rem !important;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .main_menu li a {
+        font-size: 0.6rem !important;
+    }
+}

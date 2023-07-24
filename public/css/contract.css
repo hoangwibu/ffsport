@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+.a1 {
+    width: 1400px;
+    margin: 0 auto;
+
+    max-width: 100%;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.map {
+    width: 50%;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 680px;
+}
+
+.contract {
+    float: right;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.h2 h2 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 700;
+    margin: 0px 0;
+}
+
+.box_contract {
+    width: 100%;
+    max-width: 100%;
+}
+
+.box_contract p {
+    padding-top: 30px;
+}
+
+.box_contract p span {
+    color: black;
+    font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.ten {
+    color: #333333;
+    padding-left: 20px;
+    width: 100%;
+    border: 1px solid #3a3a3a;
+    height: 45px;
+    background-color: #fbfbfb;
+    box-shadow: none;
+}
+
+.email {
+    width: 45%;
+    border: 1px solid #3a3a3a;
+    height: 45px;
+    padding-left: 20px;
+    background-color: #fbfbfb;
+    box-shadow: none;
+    color: #333333;
+}
+
+.phone {
+    margin-left: 58px;
+    width: 45%;
+    border: 1px solid #3a3a3a;
+    height: 45px;
+    color: #333333;
+    padding-left: 20px;
+    background-color: #fbfbfb;
+    box-shadow: none;
+}
+
+.submit {
+    width: 35%;
+    border: 1px solid #3a3a3a;
+    height: 45px;
+    color: white;
+
+    background-color: #333333;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 414px) {
+    .map {
+        width: 100%;
+    }
+
+    .contract {
+        width: 100%;
+        padding: 20px;
+    }
+}

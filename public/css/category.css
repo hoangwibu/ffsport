@@ -1,0 +1,131 @@
+.category {
+    float: left;
+    width: 25%;
+    padding: 10px 20px;
+}
+
+.title__category h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #c39b3c;
+    padding-bottom: 20px;
+}
+
+.main__category li a {
+    line-height: 1.5;
+    display: block;
+    font-size: 15px;
+    color: #444;
+    text-transform: uppercase;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main__category li a:hover {
+    color: #c39b3c;
+    transition-duration: 0.5s;
+}
+
+/* product */
+.product {
+    float: right;
+    width: 75%;
+    padding: 10px 20px;
+}
+
+.title__product h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #444;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.box__card {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.card {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: arial;
+    border: 0.5px solid #ecf0f1;
+}
+
+.card:hover {
+    box-shadow: 0 2px 2px 0 #ddd;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+    font-weight: 600;
+}
+
+.card .price {
+    color: #c0392b;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.card .view {
+    display: block;
+    color: #444;
+    padding-top: 10px;
+
+}
+
+.card .view button {
+    background-color: #ecf0f1;
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.card .view button:hover {
+    background-color: #f5f6fa;
+}
+
+.shoe {
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.shoe__title h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+.container__shoe {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box__shoe {
+    width: 23.4%;
+    margin: 0 10px;
+}
+
+.box__shoe .txt {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box__shoe .sp-txt {
+    font-weight: 500;
+    color: #666;
+    font-size: 14px;
+}

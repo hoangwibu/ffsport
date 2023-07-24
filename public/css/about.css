@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.mg-auto__about {
+    width: 1920px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.wrap__about {
+    box-shadow: 2px 2px 8px 2px #ccc;
+    padding: 10px;
+}
+
+.wrap__about .title h3 {
+    font-size: 1.5rem;
+    color: #c39b3c;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.wrap__about .title p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.wrap__about .noidung p {
+    font-size: 0.9rem;
+    line-height: 2.3;
+}
+
+.thanks {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #c39b3c;
+    padding: 20px 10px;
+}
+
+.thanks h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
